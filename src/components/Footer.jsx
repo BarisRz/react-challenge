@@ -1,5 +1,9 @@
 function Footer() {
-  return <></>;
+  return (
+    <>
+      <footer>© 2023 Baris</footer>
+    </>
+  );
 }
 
 export default Footer;
