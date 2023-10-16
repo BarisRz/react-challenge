@@ -7,6 +7,7 @@ function Card({ element }) {
         <p>{element.description}</p>
         <p>{element.price}€</p>
         <p>{element.category}</p>
+        <button>Ajouter au Panier</button>
       </div>
     </>
   );

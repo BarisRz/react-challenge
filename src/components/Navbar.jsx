@@ -1,5 +1,5 @@
 import logo from "../assets/goatLogo.svg";
-function Navbar() {
+function Navbar({ prix, nombrePanier }) {
   return (
     <>
       <nav>
@@ -7,7 +7,9 @@ function Navbar() {
         <p className="texte">
           Le coin <span>GOAT</span>esque
         </p>
-        <p>Panier</p>
+        <p>
+          Panier: {nombrePanier} Article {prix}€
+        </p>
       </nav>
     </>
   );
