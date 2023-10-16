@@ -5,7 +5,7 @@ import FrontPage from "./components/FrontPage";
 import CardList from "./components/CardList";
 import tableau from "./data/data.json";
 import Footer from "./components/Footer";
-const category = ["Tous", "Jeuxvideo", "Manga", "Anime"];
+const category = ["Tous", "Jeuxvideo", "Manga", "Anime", "Film", "Serie"];
 
 function App() {
   const [filter, setFilter] = useState("Tous");

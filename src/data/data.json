@@ -30,5 +30,45 @@
     "price": 22.99,
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*5oxAyo-zUTxauCiL9haobg.jpeg",
     "category": "Jeuxvideo"
+  },
+  {
+    "id": 5,
+    "title": "Divinity Original Sin 2",
+    "description": "Divinity: Original Sin 2 est un RPG d'heroic fantasy avec une histoire immersive, des choix significatifs et une équipe de personnages aux compétences diverses dans un monde ouvert",
+    "price": 44.99,
+    "image": "https://images.gog-statics.com/126f60f164d9530b31226d7794719a505dbee4780c31f77673297b40d7c101df.jpg",
+    "category": "Jeuxvideo"
+  },
+  {
+    "id": 6,
+    "title": "Death Note",
+    "description": "Death Note est un manga et une série animée japonaise centrée sur un étudiant nommé Light Yagami qui trouve un carnet permettant de tuer quiconque dont le nom est écrit dedans. Il devient ainsi un justicier meurtrier pour éliminer les criminels, mais se retrouve en opposition avec L, un détective talentueux. La série explore les thèmes de la justice, de la moralité et du pouvoir.",
+    "price": 6.99,
+    "image": "https://media.ouest-france.fr/v1/pictures/MjAyMDExNDgxNGMxOWFjNjAwNDVjYzY4OWZmMTk0YTU3NWUxZDA?width=1260&height=708&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=d4e07b7c626d19a14a5c07a39c463f76f235896469041e66809f67a518fb318a",
+    "category": "Anime"
+  },
+  {
+    "id": 7,
+    "title": "Pirates des Caraibes",
+    "description": "Série de films d'aventure mettant en scène le capitaine Jack Sparrow, un pirate excentrique, dans des quêtes pour trouver des trésors mythiques tout en affrontant des forces surnaturelles.",
+    "price": 24.99,
+    "image": "https://www.refuge-du-pirate.com/cdn/shop/articles/davy-jones_2000x.jpg?v=1626775462",
+    "category": "Film"
+  },
+  {
+    "id": 8,
+    "title": "Mindhunter",
+    "description": "Mindhunter est une série télévisée basée sur des faits réels qui suit deux agents du FBI dans leur quête pour comprendre et profiler des tueurs en série",
+    "price": 8.99,
+    "image": "https://occ-0-38-768.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUr6-gDdvQzjLXko1nnFGg2OcNRE5ZzRYjKlDbqMTDMcZPl_vjLkmsryR-2bH4yabSKW_rEMOaSV9B_Jaihls_RDRrspsp-sJro4cSFoVVL5Il-QOO0qUGv-WYHy8HCiEr-Ktw.jpg?r=4aa",
+    "category": "Serie"
+  },
+  {
+    "id": 9,
+    "title": "Le Seigneur des Anneaux",
+    "description": "Le Seigneur des Anneaux est une épopée fantastique où un jeune hobbit, Frodon, entreprend une quête pour détruire un anneau maléfique, tout en luttant contre les forces ténébreuses menées par Sauron. L'histoire explore le courage, l'amitié et la lutte entre le bien et le mal dans un monde imaginaire riche.",
+    "price": 6.99,
+    "image": "https://www.programme-tv.net/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FTEL.2Enews.2F2018.2F01.2F09.2F88b410e7-3b89-4ed0-8ae0-084ddd39709b.2Ejpeg/1200x600/crop-from/top/quality/80/le-seigneur-des-anneaux-les-deux-tours-tmc-comment-les-personnages-ont-ils-ete-retrecis-video.jpg",
+    "category": "Film"
   }
 ]
