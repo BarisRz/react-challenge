@@ -1,4 +1,8 @@
-function Card({ element }) {
+function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
+  function handlePanier(item) {
+    setNombrePanier(nombrePanier + 1);
+    setPrix(Math.round((prix + item.price) * 100) / 100);
+  }
   return (
     <>
       <div className="card">
@@ -7,7 +11,7 @@ function Card({ element }) {
         <p>{element.description}</p>
         <p>{element.price}€</p>
         <p>{element.category}</p>
-        <button>Ajouter au Panier</button>
+        <button onClick={() => handlePanier(element)}>Ajouter au Panier</button>
       </div>
     </>
   );

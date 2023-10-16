@@ -23,7 +23,14 @@ function App() {
           </button>
         ))}
       </div>
-      <CardList tableau={tableau} filter={filter} />
+      <CardList
+        tableau={tableau}
+        filter={filter}
+        prix={prix}
+        setPrix={setPrix}
+        nombrePanier={nombrePanier}
+        setNombrePanier={setNombrePanier}
+      />
       <Footer />
     </>
   );
