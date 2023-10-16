@@ -20,6 +20,10 @@ body {
 /* DEBUT NAVBAR */
 nav {
   background-color: grey;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
   padding: 1rem;
   margin: 0;
   height: 4rem;
@@ -35,8 +39,22 @@ nav {
   .logo {
     height: 100%;
   }
+  p {
+    display: flex;
+    align-items: center;
+    .logo {
+      height: 50px;
+      @media (max-width: 425px) {
+        height: 40px;
+      }
+    }
+    @media (max-width: 425px) {
+      font-size: 0.7rem;
+    }
+  }
   > * {
     margin: 1rem;
+    padding-right: 1rem;
   }
 }
 /* FIN NAVBAR */
@@ -47,7 +65,11 @@ nav {
 .gridFront {
   display: grid;
   margin: 0 auto;
+  margin-top: 90px;
   grid-template-columns: 1fr 2fr;
+  @media (max-width: 760px) {
+    grid-template-columns: 2fr;
+  }
   background-color: white;
   .grosTexte {
     text-align: end;
@@ -56,6 +78,9 @@ nav {
     line-height: 0;
     color: $thirdcolor;
     overflow: hidden;
+    @media (max-width: 760px) {
+      display: none;
+    }
     p:nth-child(1) {
       animation: slideUp 0.5s ease-in-out forwards;
     }
@@ -75,6 +100,9 @@ nav {
     width: 100%;
     display: flex;
     z-index: 1;
+    @media (max-width: 760px) {
+      height: 20rem;
+    }
     .image1 {
       flex: 1;
       background-image: url(https://cdnb.artstation.com/p/assets/images/images/005/617/333/large/omer-tunc-bloodborn-jpgg.jpg?1492494545);
@@ -85,6 +113,10 @@ nav {
       display: flex;
       align-items: end;
       justify-content: end;
+
+      @media (max-width: 768px) {
+        box-shadow: none;
+      }
 
       &:hover {
         flex: 3;
@@ -98,6 +130,9 @@ nav {
         padding-top: 1rem;
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.59);
         transform: rotate(180deg);
+        @media (max-width: 425px) {
+          font-size: 10vw;
+        }
       }
     }
     .image2 {
@@ -111,6 +146,10 @@ nav {
       display: flex;
       align-items: end;
       justify-content: end;
+
+      @media (max-width: 768px) {
+        box-shadow: none;
+      }
       &:hover {
         flex: 3;
       }
@@ -123,6 +162,9 @@ nav {
         padding-top: 1rem;
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.59);
         transform: rotate(180deg);
+        @media (max-width: 425px) {
+          font-size: 10vw;
+        }
       }
     }
     .image3 {
@@ -136,6 +178,11 @@ nav {
       display: flex;
       align-items: end;
       justify-content: end;
+
+      @media (max-width: 768px) {
+        box-shadow: none;
+      }
+
       &:hover {
         flex: 3;
       }
@@ -148,6 +195,9 @@ nav {
         padding-top: 1rem;
         text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.59);
         transform: rotate(180deg);
+        @media (max-width: 425px) {
+          font-size: 10vw;
+        }
       }
     }
   }
@@ -174,12 +224,9 @@ nav {
     cursor: pointer;
     transition: 0.3s;
     border-style: none;
-    border: 1px solid black;
     &:hover {
       border-radius: 10px;
-      background-color: $primarycolor;
-      border: 1px black solid inset;
-      color: black;
+      background-color: $thirdcolor;
     }
   }
 }
@@ -255,6 +302,7 @@ nav {
       border-top: 0;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
+      cursor: pointer;
       &:hover {
         background-color: $primarycolor;
         color: black;
