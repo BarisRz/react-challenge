@@ -6,7 +6,7 @@ function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
   return (
     <>
       <div className="card">
-        <img src={element.image} />
+        <p className="card-image"></p>
         <p>{element.title}</p>
         <p>{element.description}</p>
         <p>{element.price}€</p>

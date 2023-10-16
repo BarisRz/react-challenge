@@ -1,10 +1,12 @@
 import "./App.scss";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import FrontPage from "./components/FrontPage";
 import CardList from "./components/CardList";
 import tableau from "./data/data.json";
 import Footer from "./components/Footer";
 const category = ["Tous", "Jeuxvideo", "Manga", "Anime"];
+
 function App() {
   const [filter, setFilter] = useState("Tous");
   const [nombrePanier, setNombrePanier] = useState(0);
@@ -16,6 +18,7 @@ function App() {
   return (
     <>
       <Navbar prix={prix} nombrePanier={nombrePanier} />
+      <FrontPage />
       <div className="filtre">
         {category.map((element) => (
           <button key={element} onClick={() => handleClick(element)}>

@@ -4,12 +4,16 @@ function Navbar({ prix, nombrePanier }) {
     <>
       <nav>
         <img src={logo} alt="logo" className="logo" />
-        <p className="texte">
+        {/*         <p className="texte">
           Le coin <span>GOAT</span>esque
-        </p>
-        <p>
-          Panier: {nombrePanier} Article {prix}€
-        </p>
+        </p> */}
+        <ul>
+          <li>Panier: {nombrePanier} </li>
+          <li>
+            {nombrePanier !== 1 && nombrePanier !== 0 ? "Articles" : "Article"}{" "}
+            {prix}€
+          </li>
+        </ul>
       </nav>
     </>
   );
