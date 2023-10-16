@@ -33,7 +33,12 @@ nav {
     }
   }
 }
-
+.filtre {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
 .card {
   height: 60ch;
   width: 35ch;

@@ -2,33 +2,33 @@
   {
     "id": 1,
     "title": "Bloodborne",
-    "description": "SoulsLike dans un univers lovecraftien",
-    "price": 0,
+    "description": "Bloodborne est un jeu vidéo de type action-RPG avec pour thème la dark fantasy développé par From Software",
+    "price": 19.99,
     "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/NVmnBXze9ElHzU6SmykrJLIV.png",
     "category": "Jeuxvideo"
   },
   {
     "id": 2,
     "title": "Berserk",
-    "description": "Manga dark fantasy",
-    "price": 0,
+    "description": "Situé dans un monde de dark fantasy inspiré de l’Europe médiévale, l'histoire est centrée sur les personnages de Guts, un mercenaire solitaire, et de Griffith, le chef d'un groupe de mercenaires appelé la Troupe du Faucon.",
+    "price": 6.99,
     "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
     "category": "Manga"
   },
   {
     "id": 3,
-    "title": "Berserk",
-    "description": "Manga dark fantasy",
+    "title": "Hunter x Hunter",
+    "description": "Hunter x Hunter suit Gon Freecss dans sa quête pour devenir un Hunter et retrouver son père, tout en explorant un monde dangereux rempli de défis et de mystères.",
     "price": 0,
-    "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
-    "category": "Manga"
+    "image": "https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/canalplus-cdn.canal-plus.io/p1/brand/4547921/canal-ouah/STD169/myCANAL_16x9_MEA_1920x1080-14",
+    "category": "Anime"
   },
   {
     "id": 4,
-    "title": "Berserk",
-    "description": "Manga dark fantasy",
-    "price": 0,
-    "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
-    "category": "Manga"
+    "title": "Outer Wilds",
+    "description": "Jeuxvideo d'exploration spatiale. Le joueur y incarne un jeune astronaute extraterrestre qui visite son système planétaire pour y découvrir une ancienne civilisation.",
+    "price": 22.99,
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202208/1623/Zofebh60Ue7Zt5sC10UAtU3D.png",
+    "category": "Jeuxvideo"
   }
 ]
