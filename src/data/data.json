@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Bloodborne",
+    "description": "SoulsLike dans un univers lovecraftien",
+    "price": 0,
+    "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/NVmnBXze9ElHzU6SmykrJLIV.png",
+    "category": "Jeuxvideo"
+  },
+  {
+    "id": 2,
+    "title": "Berserk",
+    "description": "Manga dark fantasy",
+    "price": 0,
+    "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
+    "category": "Manga"
+  },
+  {
+    "id": 3,
+    "title": "Berserk",
+    "description": "Manga dark fantasy",
+    "price": 0,
+    "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
+    "category": "Manga"
+  },
+  {
+    "id": 4,
+    "title": "Berserk",
+    "description": "Manga dark fantasy",
+    "price": 0,
+    "image": "https://static.fnac-static.com/multimedia/Images/FD/Comete/125059/CCP_IMG_ORIGINAL/1631241.jpg",
+    "category": "Manga"
+  }
+]

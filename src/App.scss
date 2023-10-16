@@ -1,1 +1,54 @@
+* {
+  margin: 0;
+}
 
+$primarycolor: #fbfef9;
+$secondarycolor: #191923;
+$thirdcolor: #0e79b2;
+
+nav {
+  background-color: grey;
+  padding: 1rem;
+  margin: 0;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $thirdcolor;
+  color: $primarycolor;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  > * {
+    margin: 1rem;
+  }
+  .logo {
+    height: 100%;
+  }
+  p {
+    font-size: 1.5rem;
+    span {
+      background-color: $primarycolor;
+      color: black;
+      transform: rotate(100deg);
+    }
+  }
+}
+
+.card {
+  height: 60ch;
+  width: 35ch;
+  background-color: $secondarycolor;
+  color: white;
+  img {
+    max-width: 100%;
+  }
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
