@@ -6,7 +6,10 @@ function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
   return (
     <>
       <div className="card">
-        <p className="card-image"></p>
+        <p
+          className="card-image"
+          style={{ backgroundImage: `url(${element.image})` }}
+        ></p>
         <p>{element.title}</p>
         <p>{element.description}</p>
         <p>{element.price}€</p>

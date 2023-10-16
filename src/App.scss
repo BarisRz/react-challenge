@@ -1,13 +1,14 @@
+$primarycolor: #e6e8e6;
+$secondarycolor: #50a59b;
+$thirdcolor: #4ecdc4;
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: $primarycolor;
 }
 
-$primarycolor: #fbfef9;
-$secondarycolor: #191923;
-$thirdcolor: #0e79b2;
 /*  */
 /* DEBUT NAVBAR */
 nav {
@@ -18,29 +19,18 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $thirdcolor;
+  background-color: $secondarycolor;
   color: $primarycolor;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   font-size: 1rem;
-
+  color: white;
   .logo {
     height: 100%;
   }
   > * {
     margin: 1rem;
   }
-
-  /*  .texte {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    span {
-      background-color: $primarycolor;
-      color: black;
-      margin-left: 1rem;
-    }
-  } */
 }
 /* FIN NAVBAR */
 /*  */
@@ -51,11 +41,13 @@ nav {
   display: grid;
   margin: 0 auto;
   grid-template-columns: 1fr 2fr;
+  background-color: white;
   .grosTexte {
     text-align: end;
     font-weight: 900;
     font-size: 10vw;
     line-height: 0;
+    color: $thirdcolor;
   }
   .imageslide {
     height: 100%;
@@ -151,36 +143,38 @@ nav {
   margin: 2rem;
 }
 
-.card {
-  height: 60ch;
-  width: 35ch;
-  background-color: $secondarycolor;
-  color: white;
-  img {
-    max-width: 100%;
-  }
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  @media (max-width: 768px) {
-    border: 1px solid white;
-  }
-}
-
 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  margin: 3rem 0;
-  height: 100%;
-  /* @media (max-width: 768px) {
-    gap: 0;
-  } */
+  margin: 3rem 10%;
+  @media (max-width: 768px) {
+    margin: 3rem 0;
+  }
+}
+
+.card {
+  display: grid;
+  width: 300px;
+  height: 600px;
+  grid-template-rows: 2fr 0.2fr 1fr 1fr 1fr;
+  background-color: $secondarycolor;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  .card-image {
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  }
 }
 
 footer {
-  background-color: $thirdcolor;
+  background-color: $secondarycolor;
   color: white;
   width: 100%;
   bottom: 0;
