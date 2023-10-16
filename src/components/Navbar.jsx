@@ -4,9 +4,10 @@ function Navbar() {
     <>
       <nav>
         <img src={logo} alt="logo" className="logo" />
-        <p>
+        <p className="texte">
           Le coin <span>GOAT</span>esque
         </p>
+        <p>Panier</p>
       </nav>
     </>
   );

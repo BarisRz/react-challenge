@@ -16,7 +16,7 @@ nav {
   height: 4rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: $thirdcolor;
   color: $primarycolor;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -27,12 +27,13 @@ nav {
   .logo {
     height: 100%;
   }
-  p {
+  .texte {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
     span {
       background-color: $primarycolor;
       color: black;
-      transform: rotate(100deg);
     }
   }
 }
@@ -57,9 +58,13 @@ nav {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
   margin-top: 3rem;
   height: 100%;
+  @media (max-width: 768px) {
+    gap: 0;
+  }
 }
 
 footer {
