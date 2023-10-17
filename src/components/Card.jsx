@@ -11,12 +11,12 @@ function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
         <p>{element.title}</p>
         <p>{element.description}</p>
         <p>{element.category}</p>
-        <p>
+        <div>
           <p>{element.price}€</p>
           <button onClick={() => handlePanier(element)}>
             Ajouter au Panier
           </button>
-        </p>
+        </div>
       </div>
     </>
   );

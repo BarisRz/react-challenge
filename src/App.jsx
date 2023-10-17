@@ -16,7 +16,6 @@ function App() {
   function handleClick(name) {
     setFilter(name);
   }
-  console.log(filter);
   return (
     <>
       <Navbar prix={prix} nombrePanier={nombrePanier} />
