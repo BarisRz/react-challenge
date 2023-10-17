@@ -2,6 +2,7 @@ import "./App.scss";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import FrontPage from "./components/FrontPage";
+import Searchbar from "./components/Searchbar";
 import CardList from "./components/CardList";
 import tableau from "./data/data.json";
 import Footer from "./components/Footer";
@@ -11,6 +12,7 @@ function App() {
   const [filter, setFilter] = useState("Tous");
   const [nombrePanier, setNombrePanier] = useState(0);
   const [prix, setPrix] = useState(0);
+  const [searchValue, setSearchValue] = useState("");
   function handleClick(name) {
     setFilter(name);
   }
@@ -26,13 +28,16 @@ function App() {
           </button>
         ))}
       </div>
+      <Searchbar searchValue={searchValue} setSearchValue={setSearchValue} />
       <CardList
         tableau={tableau}
         filter={filter}
+        filter2={searchValue}
         prix={prix}
         setPrix={setPrix}
         nombrePanier={nombrePanier}
         setNombrePanier={setNombrePanier}
+        setFilter={setFilter}
       />
       <Footer />
     </>

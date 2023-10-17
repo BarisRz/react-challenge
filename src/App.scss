@@ -1,4 +1,4 @@
-$primarycolor: #e6e8e6;
+$primarycolor: #ecfffe;
 $secondarycolor: #50a59b;
 $thirdcolor: #438880;
 html,
@@ -19,7 +19,6 @@ body {
 /*  */
 /* DEBUT NAVBAR */
 nav {
-  background-color: grey;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -31,7 +30,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: $secondarycolor;
-  color: $primarycolor;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   font-size: 1rem;
@@ -214,7 +212,7 @@ nav {
   justify-content: center;
   gap: 2rem;
   background-color: $primarycolor;
-  margin: 0 0 1rem 0;
+  margin: 0;
   padding: 1rem;
   button {
     background-color: $secondarycolor;
@@ -230,7 +228,29 @@ nav {
     }
   }
 }
-
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primarycolor;
+  padding-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  img {
+    height: 30px;
+    padding: 10px;
+  }
+  input {
+    height: 30px;
+    transition: 0.3s;
+    border: 1px solid $secondarycolor;
+    border-radius: 3px;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+  }
+}
 /* ********************** */
 /*  */
 /* DEBUT Card */
