@@ -1,4 +1,5 @@
 import searchIcon from "../assets/search.svg";
+import PropTypes from "prop-types";
 function Searchbar({ searchValue, setSearchValue }) {
   return (
     <div className="searchbar">
@@ -11,5 +12,8 @@ function Searchbar({ searchValue, setSearchValue }) {
     </div>
   );
 }
-
+Searchbar.propTypes = {
+  searchValue: PropTypes.string,
+  setSearchValue: PropTypes.func,
+};
 export default Searchbar;

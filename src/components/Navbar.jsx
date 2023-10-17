@@ -1,11 +1,12 @@
 import logo from "../assets/goatLogo.svg";
 import cart from "../assets/cart-shopping.svg";
+import PropTypes from "prop-types";
 function Navbar({ prix, nombrePanier }) {
   return (
     <>
       <nav>
         <img src={logo} alt="logo" className="logo" />
-        <p>
+        <div>
           <img src={cart} className="logo" />
           <ul>
             <li>Panier: {nombrePanier} </li>
@@ -16,10 +17,13 @@ function Navbar({ prix, nombrePanier }) {
               {prix}€
             </li>
           </ul>
-        </p>
+        </div>
       </nav>
     </>
   );
 }
-
+Navbar.propTypes = {
+  prix: PropTypes.number,
+  nombrePanier: PropTypes.number,
+};
 export default Navbar;

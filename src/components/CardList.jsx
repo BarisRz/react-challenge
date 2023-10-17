@@ -1,4 +1,5 @@
 import Card from "./Card";
+import PropTypes from "prop-types";
 function CardList({
   tableau,
   filter,
@@ -42,5 +43,13 @@ function CardList({
     </>
   );
 }
-
+CardList.propTypes = {
+  tableau: PropTypes.array,
+  filter: PropTypes.string,
+  prix: PropTypes.number,
+  setPrix: PropTypes.func,
+  nombrePanier: PropTypes.number,
+  setNombrePanier: PropTypes.func,
+  filter2: PropTypes.string,
+};
 export default CardList;

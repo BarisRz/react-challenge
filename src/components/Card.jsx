@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
   function handlePanier(item) {
     setNombrePanier(nombrePanier + 1);
@@ -20,5 +21,11 @@ function Card({ element, prix, setPrix, nombrePanier, setNombrePanier }) {
     </>
   );
 }
-
+Card.propTypes = {
+  element: PropTypes.object,
+  prix: PropTypes.number,
+  setPrix: PropTypes.func,
+  nombrePanier: PropTypes.number,
+  setNombrePanier: PropTypes.func,
+};
 export default Card;
