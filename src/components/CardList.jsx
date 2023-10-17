@@ -6,7 +6,6 @@ function CardList({
   setPrix,
   nombrePanier,
   setNombrePanier,
-  setFilter,
   filter2,
 }) {
   return (

@@ -37,7 +37,6 @@ function App() {
         setPrix={setPrix}
         nombrePanier={nombrePanier}
         setNombrePanier={setNombrePanier}
-        setFilter={setFilter}
       />
       <Footer />
     </>
