@@ -70,5 +70,21 @@
     "price": 6.99,
     "image": "https://www.programme-tv.net/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FTEL.2Enews.2F2018.2F01.2F09.2F88b410e7-3b89-4ed0-8ae0-084ddd39709b.2Ejpeg/1200x600/crop-from/top/quality/80/le-seigneur-des-anneaux-les-deux-tours-tmc-comment-les-personnages-ont-ils-ete-retrecis-video.jpg",
     "category": "Film"
+  },
+  {
+    "id": 10,
+    "title": "League of Legends",
+    "description": "League of Legends est un jeu vidéo de type MOBA où deux équipes s'affrontent pour détruire la base adverse, en utilisant des champions aux compétences uniques, dans le but de remporter la partie.",
+    "price": 0,
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcStJOZJ8I6GWv1kqOJVgJL7EsLYfLmiL-Vxbu7BpPrurPsUHXvE",
+    "category": "Jeuxvideo"
+  },
+  {
+    "id": 11,
+    "title": "Arcane",
+    "description": "Arcane est une série d'animation basée sur l'univers de League of Legends, mêlant intrigue politique et combats, mettant en scène les origines de champions emblématiques, Jinx et Vi dans une ville divisée par le crime et la technologie.",
+    "price": 0,
+    "image": "https://3dvf.com/wp-content/uploads/2021/11/Arcane-Key-Art-1920x1080.jpg",
+    "category": "Serie"
   }
 ]

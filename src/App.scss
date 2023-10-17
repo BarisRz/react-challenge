@@ -1,6 +1,6 @@
-$primarycolor: #ecfffe;
-$secondarycolor: #50a59b;
-$thirdcolor: #438880;
+$primarycolor: #fdffff;
+$secondarycolor: #b10f2e;
+$thirdcolor: #720b0b;
 html,
 body {
   height: 100%;
@@ -68,7 +68,7 @@ nav {
   @media (max-width: 760px) {
     grid-template-columns: 2fr;
   }
-  background-color: white;
+  background-color: $primarycolor;
   .grosTexte {
     text-align: end;
     font-weight: 900;
@@ -289,6 +289,10 @@ nav {
     /* description */
     padding: 0 10px;
     overflow: auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
   p:nth-child(4) {
     /* genre */
